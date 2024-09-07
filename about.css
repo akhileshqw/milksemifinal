@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.z {
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url(backgroundabout.webp);
+    height: 360px;
+}
+div span {
+
+    /* position: absolute;
+    bottom: 163px;
+    left: 628px; */
+    /* right: 180px; */
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+.zxc{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.zxc p{
+    font-size: larger;
+}
+
+
+.jkl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:950px) {
+    .z { 
+
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+    span{
+        position: relative;
+    }
+    
+
+    
+}
