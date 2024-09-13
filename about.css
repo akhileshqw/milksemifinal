@@ -53,11 +53,17 @@ div span {
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
     }
     span{
         position: relative;
     }
-    
+    .jkl {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     
 }
