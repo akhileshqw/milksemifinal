@@ -11,7 +11,7 @@
 
 .flu{
 
-border: 2px solid #141212;
+/* border: 2px solid #141212; */
 height: 500px;
 display: flex;
 }
@@ -69,7 +69,37 @@ display: flex;
     list-style: none; ;
 
 }
-
 .display{
     display: none;
+}
+
+.outline{
+    border: 6px white !important;
+}
+@media screen and (max-width:990px) {
+    .nav-extra{
+        margin-top: 30px;
+        /* padding: 3px; */
+        padding-bottom: 14px;
+    }
+    
+}
+
+
+@media screen and (max-width:480px) {
+.smaller{
+    width: 120vw;
+}
+.smallimg img{
+    height: 450px !important;
+    /* object-fit:fill; */
+
+}
+.smallimg{
+    text-align: center;
+
+}
+
+
+    
 }
