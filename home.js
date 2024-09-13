@@ -31,5 +31,10 @@ d.classList.toggle("focus")
  }
 
 
-
- 
+let tardiv=document.getElementById("navbarSupportedContent")
+tardiv.classList.add("display")
+ let mbtn=document.getElementById("nav-ref")
+ mbtn.onclick=function fn(){
+tardiv.classList.toggle("display")
+// console.log("clicked btn 1233")
+ }
