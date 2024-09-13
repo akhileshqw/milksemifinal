@@ -36,5 +36,6 @@ tardiv.classList.add("display")
  let mbtn=document.getElementById("nav-ref")
  mbtn.onclick=function fn(){
 tardiv.classList.toggle("display")
+mbtn.classList.toggle("outline")
 // console.log("clicked btn 1233")
  }
